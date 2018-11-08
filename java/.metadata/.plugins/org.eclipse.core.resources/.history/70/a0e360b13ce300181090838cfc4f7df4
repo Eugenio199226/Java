@@ -1,0 +1,23 @@
+package random;
+
+public class random {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int resultado=0;
+		int a,b,c,i;
+		i=0;
+		
+		do{
+			resultado=0;
+			a=(int) Math.floor(Math.random()*1000);
+			b=(int) Math.floor(Math.random()*1000);
+			c=(int) Math.floor(Math.random()*1000);
+			resultado=a+b+c;
+			i++;
+			System.out.println(a+" + "+b+" + "+c+" = "+resultado+" vuelta nº: "+i);
+			
+		}while(resultado!=13);
+	}
+
+}

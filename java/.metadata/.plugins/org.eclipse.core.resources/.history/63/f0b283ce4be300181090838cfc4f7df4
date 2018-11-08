@@ -1,0 +1,5 @@
+package Objetos.principal.models;
+
+public class Usuario {
+
+}

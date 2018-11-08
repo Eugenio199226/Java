@@ -1,0 +1,10 @@
+package Objetos.principal.models;
+
+public class Usuario {
+	
+	nombre
+	apellido
+	email
+	edad
+
+}

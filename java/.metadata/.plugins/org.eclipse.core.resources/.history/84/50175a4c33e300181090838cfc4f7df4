@@ -1,0 +1,14 @@
+package paquete.prueba;
+
+public class HelloPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer hola=new Integer(1).BYTES;
+		for(int i=0;i<10;i++) {
+			System.out.println(hola+"Java tiene de Javascript lo mismo que palo tiene de paloma");
+			
+		}
+	}
+
+}

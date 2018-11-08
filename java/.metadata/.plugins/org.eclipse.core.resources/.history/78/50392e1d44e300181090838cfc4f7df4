@@ -1,0 +1,17 @@
+package random;
+
+public class ArrayPerruno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] perretes = new String[1000];
+	    for (int i = 1; i <= perretes.length-1; i++) {
+
+	    	perretes[i]="perrete"+i;
+	    }
+	    for (int i = 0; i < perretes.length; i++) {
+	    	System.out.println("Mascota: "+perretes[i]);
+	    }
+	}
+
+}

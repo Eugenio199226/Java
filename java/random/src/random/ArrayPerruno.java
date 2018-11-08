@@ -1,0 +1,49 @@
+package random;
+
+public class ArrayPerruno {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] perretes = new String[1000];
+		
+	    for (int i = 0; i < perretes.length; i++) {
+
+	    	perretes[i]=generaNombres();
+	    }
+	    for (int i = 0; i < perretes.length; i++) {
+	    	System.out.println("Mascota: "+perretes[i]);
+	    }
+	}//EL MAIN TERMINA AQUI
+
+	public static String generaNombres() 
+	{
+		String[] nombres = new String[20];
+		
+		nombres[0]="Bobby";
+		nombres[1]="Zozor";
+		nombres[2]="Kuma";
+		nombres[3]="Kuroro";
+		nombres[4]="Chucho";
+		nombres[5]="Salchicha";
+		nombres[6]="Rocky";
+		nombres[7]="Jake";
+		nombres[8]="Holy";
+		nombres[9]="Sarabi";
+		nombres[10]="Iggy";
+		nombres[11]="Pepe";
+		nombres[12]="Django";
+		nombres[13]="Adolf";
+		nombres[14]="Pluto";
+		nombres[15]="Lucifer";
+		nombres[16]="Asqueroso";
+		nombres[17]="Peleona";
+		nombres[18]="Canelón";
+		nombres[19]="Mufasa";
+		
+		int valor1=(int) Math.floor(Math.random()*20);
+		int valor2=(int) Math.floor(Math.random()*20);
+		String nombreADevolver="";
+		nombreADevolver=nombres[valor1]+" "+nombres[valor2];
+		return nombreADevolver ;
+	}
+}

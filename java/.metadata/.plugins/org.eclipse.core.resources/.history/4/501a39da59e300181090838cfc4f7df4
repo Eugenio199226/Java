@@ -1,0 +1,17 @@
+package Objetos.principal;
+
+import Objetos.principal.models.Usuario;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Usuario pepito = new Usuario();
+		pepito.nombre="Débora";
+		pepito.apellido="Hombres";
+		pepidto.dir=new Direccion();
+		System.out.println(pepito.mostrarDatosCompletos());
+
+	}
+
+}

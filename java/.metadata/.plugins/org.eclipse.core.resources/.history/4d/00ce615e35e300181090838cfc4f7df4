@@ -1,0 +1,13 @@
+package paquete.prueba;
+
+public class HelloPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			String texto;
+			texto="HOLA";
+			String nombre="Eugenio";
+			System.out.println(texto+" "+nombre);
+	}
+
+}

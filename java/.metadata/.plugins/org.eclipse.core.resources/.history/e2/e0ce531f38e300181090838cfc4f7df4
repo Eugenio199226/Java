@@ -1,0 +1,25 @@
+package paq.decisor;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b,c;
+		a=(int) Math.random();
+		b=(int) Math.random();
+		c=(int) Math.random();
+		if(a>b && a>c) 
+		{
+			System.out.println("a es mayor "+a);
+		}else if(b>c)
+		{
+			System.out.println("b es mayor "+b);
+		}
+		else 
+		{
+			System.out.println("c es mayor "+c);
+		}
+		
+	}
+
+}
